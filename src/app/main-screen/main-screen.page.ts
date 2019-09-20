@@ -1,5 +1,5 @@
 
-import {AfterContentInit,Component,OnInit,ViewChildren} from '@angular/core';
+import {AfterContentInit,Component,OnInit} from '@angular/core';
 
 import{Platform} from '@ionic/angular';
 import { Geolocation } from '@ionic-native/geolocation/ngx';
@@ -32,7 +32,7 @@ export class MainScreenPage {
       var ref = this;
       let watch = this.geolocation.watchPosition();
       watch.subscribe((position)=>{
-        var gps = new google.map.LatLng(position.coords.latitude,position.coords.longitude);
+        var gps = new google.map.Lat.Lng(position.coords.latitude,position.coords.longitude);
         if(ref.marker == null)
           {
           ref.marker = new google.maps.Marker({
