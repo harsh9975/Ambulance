@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "140472689264",
+    "firebase_url": "https://ambulance-cb0df.firebaseio.com",
+    "project_id": "ambulance-cb0df",
+    "storage_bucket": "ambulance-cb0df.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:140472689264:android:bc842a60b135d9641f0ab5",
+        "android_client_info": {
+          "package_name": "io.ionic.ambulance"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "140472689264-jadm1alfodqnhejqt8gvh1egmngga8ka.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCumerqKfsPmb3awuPl4PHFojd4kMGJFWg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "140472689264-jadm1alfodqnhejqt8gvh1egmngga8ka.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
